@@ -14,7 +14,7 @@
 		revision="lineage-21"/>
 	<remote name="rom" 
 		fetch="https://github.com/EliasTheGrandMasterOfMistakes"
-		revision="android-14">
+		revision="android-14"/>
 
         <!-- Eureka -->
         <project path="device/samsung" name="android_device_samsung_exynos7885" remote="rom"/>
