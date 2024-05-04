@@ -15,6 +15,9 @@
 	<remote name="rom" 
 		fetch="https://github.com/EliasTheGrandMasterOfMistakes"
 		revision="android-14"/>
+	<remote name="arm-nn" 
+		fetch="https://github.com/ARM-software"
+		revision="android-nn-driver_24_02"/>
 
         <!-- Eureka -->
         <project path="device/samsung" name="android_device_samsung_exynos7885" remote="rom"/>
@@ -32,6 +35,11 @@
                  name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib"
                  remote="lineage-cp" />
 
+	<!-- ARM-NN -->
+	 <project path="vendor/arm/android-nn-driver"
+                 name="android-nn-driver"
+                 remote="arm-nn" />
+	
         <!-- Royna's forks and repos -->
         <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="royna"/>
         <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="royna"/>
