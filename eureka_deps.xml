@@ -14,7 +14,7 @@
 		revision="lineage-21"/>
 	<remote name="rom" 
 		fetch="https://github.com/EliasTheGrandMasterOfMistakes"
-		revision="android-14"/>
+		revision="testing-bsp"/>
 	<remote name="arm-nn" 
 		fetch="https://github.com/ARM-software"
 		revision="android-nn-driver_24_02"/>
