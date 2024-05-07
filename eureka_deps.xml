@@ -45,9 +45,9 @@
                  remote="arm-nn" />
 	
         <!-- Royna's forks and repos -->
-        <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="royna"/>
+        <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="linux4"/>
         <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="royna"/>
-        <project path="hardware/samsung" name="android_hardware_samsung" remote="royna" revision="fourteen"/>
+        <project path="hardware/samsung" name="android_hardware_samsung" remote="linux4" />
 
         <!-- SLSI Linaro -->
 	<project path="hardware/samsung_slsi-linaro/graphics"
