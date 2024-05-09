@@ -13,5 +13,8 @@
         <project path="kernel/motorola/sm6225" name="android_kernel_motorola_sm6225" remote="lineage-copy" />
         <project path="vendor/motorola/sm6225-common" name="proprietary_vendor_motorola_sm6225-common" remote="rom"/>
         <project path="vendor/motorola/rhode" name="proprietary_vendor_motorola_rhode" remote="lineage-copy" />
-                 
+
+
+       <!-- Mesa3D -->
+       <project path="platform/external/mesa3d" name="platform_external_mesa3d" remote="rom" />          
 </manifest>
