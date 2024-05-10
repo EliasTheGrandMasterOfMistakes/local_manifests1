@@ -2,16 +2,16 @@
 <manifest>
         <remote name="lineage-copy"
                 fetch="https://github.com/LineageOS"
-		revision="lineage-21"/>
+		revision="lineage-21" />
 	<remote name="rom" 
 		fetch="https://github.com/EliasTheGrandMasterOfMistakes"
-		revision="turnip-build"/>
+		revision="turnip-build" />
 
         <!-- Device -->
         <project path="device/motorola/sm6225-common" name="android_device_motorola_sm6225-common-1" remote="rom" />
-        <project path="device/motorola/rhode" name="android_device_motorola_rhode" remote="lineage-copy"/>
+        <project path="device/motorola/rhode" name="android_device_motorola_rhode" remote="lineage-copy" />
         <project path="kernel/motorola/sm6225" name="android_kernel_motorola_sm6225" remote="lineage-copy" />
-        <project path="vendor/motorola/sm6225-common" name="proprietary_vendor_motorola_sm6225-common" remote="rom"/>
+        <project path="vendor/motorola/sm6225-common" name="proprietary_vendor_motorola_sm6225-common" remote="rom" />
         <project path="vendor/motorola/rhode" name="proprietary_vendor_motorola_rhode" remote="rom" revision="lineage-21" />
 
 
