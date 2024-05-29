@@ -12,7 +12,7 @@
         <project path="device/motorola/rhode" name="android_device_motorola_rhode" remote="lineage-copy" />
         <project path="kernel/motorola/sm6225" name="android_kernel_motorola_sm6225" remote="lineage-copy" />
         <project path="vendor/motorola/sm6225-common" name="proprietary_vendor_motorola_sm6225-common" remote="rom" />
-        <project path="vendor/motorola/rhode" name="proprietary_vendor_motorola_rhode" remote="lineage-copy" />
+        <project path="vendor/motorola/rhode" name="proprietary_vendor_motorola_rhode" remote="rom" revision="lineage-21" />
 
 
        <!-- Mesa3D -->
