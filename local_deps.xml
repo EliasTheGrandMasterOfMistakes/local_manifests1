@@ -18,6 +18,10 @@
         <project path="kernel/oneplus/sdm845" name="kernel_oneplus_sdm845" remote="oneplus" revision="14" />
         <project path="vendor/oneplus/sdm845-common" name="vendor_oneplus_sdm845-common" remote="rom" />
 	<project path="vendor/oneplus/fajita" name="vendor_oneplus_fajita" remote="rom" revision="14" />
+
+        <!-- Hardware -->
+	<project path="hardware/oneplus" name="android_hardware_oneplus" remote="lineage-cp" />
+	<project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="lineage-cp" revision="lineage-21.0-caf" />
         <!-- Mesa3D -->
         <project path="platform/external/mesa3d" name="platform_external_mesa3d" remote="rom" />          
       
