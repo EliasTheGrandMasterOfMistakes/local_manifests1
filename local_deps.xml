@@ -21,7 +21,6 @@
 
         <!-- Hardware -->
 	<project path="hardware/oneplus" name="android_hardware_oneplus" remote="lineage-cp" />
-	<project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="lineage-cp" revision="lineage-21.0-caf" />
         <!-- Mesa3D -->
         <project path="platform/external/mesa3d" name="platform_external_mesa3d" remote="rom" />          
       
