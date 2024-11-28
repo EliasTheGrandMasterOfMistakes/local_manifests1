@@ -6,7 +6,7 @@
 		revision="lineage-21"/>
 	<remote name="rom" 
 		fetch="https://github.com/EliasTheGrandMasterOfMistakes"
-		revision="evolution/>
+		revision="evolution"/>
 
 
 
