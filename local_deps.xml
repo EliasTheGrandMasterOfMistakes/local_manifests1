@@ -16,6 +16,6 @@
         <project path="kernel/oneplus/sdm845" name="android_kernel_oneplus_sdm845" remote="lineage-cp" revision="lineage-21" />
         <project path="vendor/oneplus/sdm845-common" name="proprietary_vendor_oneplus_sdm845-common" remote="rom" revision="lineage-21" />
 	<project path="vendor/oneplus/fajita" name="proprietary_vendor_oneplus_fajita" remote="rom" revision="lineage-21" />
-     
+        <project path="hardware/oneplus" name="android_hardware_oneplus" remote="lineage-cp" />
       
 </manifest>
